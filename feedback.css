@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 20px;
+
+
+}
+.head{
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: orange;
+}
+
+.body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(94, 92, 92);
+    font-weight: 500;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+
+#feedback{
+    height: 200px;
+    width: 300px;
+    /* border: 1px solid rgb(76, 71, 71); */
+    outline: none;
+    resize: none;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#feedback:focus{
+    box-shadow: black 0 0 .5rem;
+    border: 1px solid rgb(76, 71, 71);
+    outline: none;
+
+
+}
+
+button{
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgb(112, 169, 46);
+    font-size: 15px;
+    font-weight:500 ;
+    border: none;
+}
+
+.note {
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 500px){
+    
+}
